@@ -1,0 +1,97 @@
+body{
+    background-image: url(../images/gradient.jpe);
+    background-repeat: repeat-x;
+    background-color: #669999;
+}
+#nav {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 20px 0;
+	background: #2e2e2e url(../images/nav_bar.jpg) repeat-x;
+	display: block;
+	overflow: hidden;
+	font-size: 0.9em;
+	height:33px;
+	text-transform:capitalize;
+    font-family: Helvetica, Arial, Sans-serif;
+}
+#nav li {
+	display: inline;
+}
+#nav li a {
+
+	display: block;
+	float: right;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+    font-family: Helvetica, Arial, Sans-serif;
+}
+#nav li a:hover {
+	background: #1b1b1b url(../images/nav_bar_o.jpg) repeat-x;
+}
+h2{
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    font-family: Helvetica, Arial, Sans-serif;
+}
+
+#content{
+    font-family: Helvetica, Arial, Sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+td{
+
+    font-family: Helvetica, Arial, Sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+/* thumnails styling */
+.thumbnail{
+	padding: 2px 2px 2px 2px;
+	background-color: #ffffff;
+	border: 0px solid #2a2a2a;
+	float: center;
+	margin-right: 0px;
+	margin-bottom: 0px;}
+
+.thumbnail a img
+{/*display:block; */width:75px; height:55px; border:5px solid #eee;}
+
+.thumbnail a:hover,
+.thumbnail a:hover
+{white-space:normal; position:absolute}
+
+.thumbnail a:hover img,
+.thumbnail a:hover img
+{position:absolute; left:-90px; top:-32px; width:180px; height:130px; border-color:#fff;}
+
+A {
+font-family: Helvetica, Arial, Sans-serif;
+font-size: 12px;
+color: #6b94cf;
+}
+A:Hover {
+font-family: Helvetica, Arial, Sans-serif;
+font-size: 12px;
+color: #8aacde;
+}
+A:visited {
+font-family: Helvetica, Arial, Sans-serif;
+font-size: 12px;
+color: #6b94cf;
+}
+
+.t {background: url(../images/roundbox/dot2.gif) 0 0 repeat-x; width: 650px}
+.b {background: url(../images/roundbox/dot2.gif) 0 100% repeat-x}
+.l {background: url(../images/roundbox/dot2.gif) 0 0 repeat-y}
+.r {background: url(../images/roundbox/dot2.gif) 100% 0 repeat-y}
+.bl {background: url(../images/roundbox/bl2.gif) 0 100% no-repeat}
+.br {background: url(../images/roundbox/br2.gif) 100% 100% no-repeat}
+.tl {background: url(../images/roundbox/tl2.gif) 0 0 no-repeat}
+.tr {background: url(../images/roundbox/tr2.gif) 100% 0 no-repeat; padding:10px} 
+
